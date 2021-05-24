@@ -17,6 +17,17 @@
 		3932FFA62651BC2300856E2F /* SocialTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3932FFA52651BC2300856E2F /* SocialTableViewController.swift */; };
 		3932FFAA2651BD4500856E2F /* PostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3932FFA82651BD4500856E2F /* PostTableViewCell.swift */; };
 		3932FFAB2651BD4500856E2F /* PostTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3932FFA92651BD4500856E2F /* PostTableViewCell.xib */; };
+		3942543F265C4AC500E7F896 /* FollowerTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3942543E265C4AC500E7F896 /* FollowerTableViewController.swift */; };
+		39425442265C4AFF00E7F896 /* FollowerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39425441265C4AFF00E7F896 /* FollowerTableViewCell.swift */; };
+		398351D5265AD94900805F66 /* ImageDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398351D4265AD94900805F66 /* ImageDownloader.swift */; };
+		398351D8265BEF6100805F66 /* PhotosCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398351D7265BEF6100805F66 /* PhotosCollectionViewController.swift */; };
+		398351DB265BF1A700805F66 /* ByHandViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398351DA265BF1A700805F66 /* ByHandViewController.swift */; };
+		398351DE265BFEB800805F66 /* UserTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398351DD265BFEB800805F66 /* UserTableViewController.swift */; };
+		398351E2265BFF3B00805F66 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398351E1265BFF3B00805F66 /* User.swift */; };
+		398351E6265BFF6300805F66 /* DetailUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398351E5265BFF6300805F66 /* DetailUser.swift */; };
+		398351E9265BFFED00805F66 /* UserTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398351E8265BFFED00805F66 /* UserTableViewCell.swift */; };
+		398351EC265C017300805F66 /* FeedPostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398351EB265C017300805F66 /* FeedPostTableViewCell.swift */; };
+		398351EF265C021300805F66 /* FeedPostTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398351EE265C021300805F66 /* FeedPostTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +43,17 @@
 		3932FFA52651BC2300856E2F /* SocialTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialTableViewController.swift; sourceTree = "<group>"; };
 		3932FFA82651BD4500856E2F /* PostTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostTableViewCell.swift; sourceTree = "<group>"; };
 		3932FFA92651BD4500856E2F /* PostTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PostTableViewCell.xib; sourceTree = "<group>"; };
+		3942543E265C4AC500E7F896 /* FollowerTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerTableViewController.swift; sourceTree = "<group>"; };
+		39425441265C4AFF00E7F896 /* FollowerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerTableViewCell.swift; sourceTree = "<group>"; };
+		398351D4265AD94900805F66 /* ImageDownloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDownloader.swift; sourceTree = "<group>"; };
+		398351D7265BEF6100805F66 /* PhotosCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosCollectionViewController.swift; sourceTree = "<group>"; };
+		398351DA265BF1A700805F66 /* ByHandViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ByHandViewController.swift; sourceTree = "<group>"; };
+		398351DD265BFEB800805F66 /* UserTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTableViewController.swift; sourceTree = "<group>"; };
+		398351E1265BFF3B00805F66 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		398351E5265BFF6300805F66 /* DetailUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailUser.swift; sourceTree = "<group>"; };
+		398351E8265BFFED00805F66 /* UserTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTableViewCell.swift; sourceTree = "<group>"; };
+		398351EB265C017300805F66 /* FeedPostTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedPostTableViewCell.swift; sourceTree = "<group>"; };
+		398351EE265C021300805F66 /* FeedPostTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedPostTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +86,7 @@
 		3932FF882650787100856E2F /* Network Social App */ = {
 			isa = PBXGroup;
 			children = (
+				398351E0265BFEF000805F66 /* Model */,
 				3932FF892650787100856E2F /* AppDelegate.swift */,
 				3932FF8B2650787100856E2F /* SceneDelegate.swift */,
 				3932FF8F2650787100856E2F /* Main.storyboard */,
@@ -75,8 +98,26 @@
 				3932FFA52651BC2300856E2F /* SocialTableViewController.swift */,
 				3932FFA82651BD4500856E2F /* PostTableViewCell.swift */,
 				3932FFA92651BD4500856E2F /* PostTableViewCell.xib */,
+				398351D4265AD94900805F66 /* ImageDownloader.swift */,
+				398351D7265BEF6100805F66 /* PhotosCollectionViewController.swift */,
+				398351DA265BF1A700805F66 /* ByHandViewController.swift */,
+				398351DD265BFEB800805F66 /* UserTableViewController.swift */,
+				398351E8265BFFED00805F66 /* UserTableViewCell.swift */,
+				398351EB265C017300805F66 /* FeedPostTableViewCell.swift */,
+				398351EE265C021300805F66 /* FeedPostTableViewController.swift */,
+				3942543E265C4AC500E7F896 /* FollowerTableViewController.swift */,
+				39425441265C4AFF00E7F896 /* FollowerTableViewCell.swift */,
 			);
 			path = "Network Social App";
+			sourceTree = "<group>";
+		};
+		398351E0265BFEF000805F66 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				398351E1265BFF3B00805F66 /* User.swift */,
+				398351E5265BFF6300805F66 /* DetailUser.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,12 +191,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				398351DE265BFEB800805F66 /* UserTableViewController.swift in Sources */,
+				398351E6265BFF6300805F66 /* DetailUser.swift in Sources */,
 				3932FFA62651BC2300856E2F /* SocialTableViewController.swift in Sources */,
 				3932FF8A2650787100856E2F /* AppDelegate.swift in Sources */,
+				398351EF265C021300805F66 /* FeedPostTableViewController.swift in Sources */,
+				398351E9265BFFED00805F66 /* UserTableViewCell.swift in Sources */,
+				398351D5265AD94900805F66 /* ImageDownloader.swift in Sources */,
+				3942543F265C4AC500E7F896 /* FollowerTableViewController.swift in Sources */,
 				3932FFA026507CD900856E2F /* KeyboardViewController.swift in Sources */,
+				398351DB265BF1A700805F66 /* ByHandViewController.swift in Sources */,
 				3932FF8C2650787100856E2F /* SceneDelegate.swift in Sources */,
 				3932FFA32651B64200856E2F /* FormTableViewController.swift in Sources */,
 				3932FFAA2651BD4500856E2F /* PostTableViewCell.swift in Sources */,
+				39425442265C4AFF00E7F896 /* FollowerTableViewCell.swift in Sources */,
+				398351EC265C017300805F66 /* FeedPostTableViewCell.swift in Sources */,
+				398351D8265BEF6100805F66 /* PhotosCollectionViewController.swift in Sources */,
+				398351E2265BFF3B00805F66 /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

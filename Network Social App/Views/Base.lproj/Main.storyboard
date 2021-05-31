@@ -563,11 +563,11 @@
             <objects>
                 <viewController id="Xtc-8Q-M0U" customClass="ByHandViewController" customModule="Network_Social_App" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="0oB-iy-hWG">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="813"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="dil-yH-4Ny">
-                                <rect key="frame" x="0.0" y="88" width="414" height="725"/>
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                             </tableView>
                         </subviews>
@@ -587,14 +587,14 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2DO-6i-hmg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2195.6521739130435" y="-2014.2857142857142"/>
+            <point key="canvasLocation" x="3296" y="-2014"/>
         </scene>
         <!--Social-->
         <scene sceneID="pY9-oK-9D9">
             <objects>
                 <tableViewController id="BZW-IJ-CcX" customClass="SocialTableViewController" customModule="Network_Social_App" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="FwF-qs-TR6">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="813"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <connections>
@@ -613,7 +613,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oaF-G7-02H" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2195.6521739130435" y="-1334.5982142857142"/>
+            <point key="canvasLocation" x="2196" y="-2014"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="4xa-dP-9yI">
@@ -645,28 +645,12 @@
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="Xtc-8Q-M0U" kind="relationship" relationship="rootViewController" id="RnA-hx-0r1"/>
+                        <segue destination="BZW-IJ-CcX" kind="relationship" relationship="rootViewController" id="8Ag-9k-gQs"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Lei-2c-Cag" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1285.5072463768117" y="-2014.2857142857142"/>
-        </scene>
-        <!--Feed-->
-        <scene sceneID="cyu-rQ-j4I">
-            <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="P8C-RC-AOT" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Feed" image="list.dash" catalog="system" id="erD-y6-CdZ"/>
-                    <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="dLu-Az-uW8">
-                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="nSm-2u-hDH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1285.5072463768117" y="-1334.5982142857142"/>
         </scene>
         <!--Seguidores-->
         <scene sceneID="aDu-cJ-9F3">

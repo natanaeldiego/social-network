@@ -19,6 +19,12 @@
 		3932FFAB2651BD4500856E2F /* PostTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3932FFA92651BD4500856E2F /* PostTableViewCell.xib */; };
 		3942543F265C4AC500E7F896 /* FollowerTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3942543E265C4AC500E7F896 /* FollowerTableViewController.swift */; };
 		39425442265C4AFF00E7F896 /* FollowerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39425441265C4AFF00E7F896 /* FollowerTableViewCell.swift */; };
+		3951E18B266531FF00F35BDC /* MyCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3951E186266531FF00F35BDC /* MyCollectionViewCell.xib */; };
+		3951E18C266531FF00F35BDC /* MyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3951E187266531FF00F35BDC /* MyCollectionViewCell.swift */; };
+		3951E18D266531FF00F35BDC /* CollectionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3951E189266531FF00F35BDC /* CollectionTableViewCell.swift */; };
+		3951E18E266531FF00F35BDC /* CollectionTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3951E18A266531FF00F35BDC /* CollectionTableViewCell.xib */; };
+		3951E191266533BC00F35BDC /* FollowersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3951E190266533BC00F35BDC /* FollowersViewController.swift */; };
+		3951E1952665389A00F35BDC /* Followers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3951E1942665389A00F35BDC /* Followers.swift */; };
 		398351D5265AD94900805F66 /* ImageDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398351D4265AD94900805F66 /* ImageDownloader.swift */; };
 		398351D8265BEF6100805F66 /* PhotosCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398351D7265BEF6100805F66 /* PhotosCollectionViewController.swift */; };
 		398351DB265BF1A700805F66 /* ByHandViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398351DA265BF1A700805F66 /* ByHandViewController.swift */; };
@@ -45,6 +51,12 @@
 		3932FFA92651BD4500856E2F /* PostTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PostTableViewCell.xib; sourceTree = "<group>"; };
 		3942543E265C4AC500E7F896 /* FollowerTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerTableViewController.swift; sourceTree = "<group>"; };
 		39425441265C4AFF00E7F896 /* FollowerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerTableViewCell.swift; sourceTree = "<group>"; };
+		3951E186266531FF00F35BDC /* MyCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyCollectionViewCell.xib; sourceTree = "<group>"; };
+		3951E187266531FF00F35BDC /* MyCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCollectionViewCell.swift; sourceTree = "<group>"; };
+		3951E189266531FF00F35BDC /* CollectionTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionTableViewCell.swift; sourceTree = "<group>"; };
+		3951E18A266531FF00F35BDC /* CollectionTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CollectionTableViewCell.xib; sourceTree = "<group>"; };
+		3951E190266533BC00F35BDC /* FollowersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowersViewController.swift; sourceTree = "<group>"; };
+		3951E1942665389A00F35BDC /* Followers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Followers.swift; sourceTree = "<group>"; };
 		398351D4265AD94900805F66 /* ImageDownloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDownloader.swift; sourceTree = "<group>"; };
 		398351D7265BEF6100805F66 /* PhotosCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosCollectionViewController.swift; sourceTree = "<group>"; };
 		398351DA265BF1A700805F66 /* ByHandViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ByHandViewController.swift; sourceTree = "<group>"; };
@@ -89,26 +101,63 @@
 				398351E0265BFEF000805F66 /* Model */,
 				3932FF892650787100856E2F /* AppDelegate.swift */,
 				3932FF8B2650787100856E2F /* SceneDelegate.swift */,
-				3932FF8F2650787100856E2F /* Main.storyboard */,
 				3932FF922650787200856E2F /* Assets.xcassets */,
-				3932FF942650787200856E2F /* LaunchScreen.storyboard */,
 				3932FF972650787200856E2F /* Info.plist */,
+				3951E1822665314C00F35BDC /* Views */,
+				398351D4265AD94900805F66 /* ImageDownloader.swift */,
+				3951E1832665318600F35BDC /* Controllers */,
+			);
+			path = "Network Social App";
+			sourceTree = "<group>";
+		};
+		3951E1822665314C00F35BDC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3951E185266531FF00F35BDC /* Collection Cell */,
+				3951E188266531FF00F35BDC /* Table Cell */,
+				3932FF8F2650787100856E2F /* Main.storyboard */,
+				3932FF942650787200856E2F /* LaunchScreen.storyboard */,
+				398351EB265C017300805F66 /* FeedPostTableViewCell.swift */,
+				39425441265C4AFF00E7F896 /* FollowerTableViewCell.swift */,
+				398351E8265BFFED00805F66 /* UserTableViewCell.swift */,
+				3932FFA82651BD4500856E2F /* PostTableViewCell.swift */,
+				3932FFA92651BD4500856E2F /* PostTableViewCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3951E1832665318600F35BDC /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
 				3932FF9F26507CD900856E2F /* KeyboardViewController.swift */,
 				3932FFA22651B64200856E2F /* FormTableViewController.swift */,
 				3932FFA52651BC2300856E2F /* SocialTableViewController.swift */,
-				3932FFA82651BD4500856E2F /* PostTableViewCell.swift */,
-				3932FFA92651BD4500856E2F /* PostTableViewCell.xib */,
-				398351D4265AD94900805F66 /* ImageDownloader.swift */,
 				398351D7265BEF6100805F66 /* PhotosCollectionViewController.swift */,
 				398351DA265BF1A700805F66 /* ByHandViewController.swift */,
 				398351DD265BFEB800805F66 /* UserTableViewController.swift */,
-				398351E8265BFFED00805F66 /* UserTableViewCell.swift */,
-				398351EB265C017300805F66 /* FeedPostTableViewCell.swift */,
 				398351EE265C021300805F66 /* FeedPostTableViewController.swift */,
 				3942543E265C4AC500E7F896 /* FollowerTableViewController.swift */,
-				39425441265C4AFF00E7F896 /* FollowerTableViewCell.swift */,
+				3951E190266533BC00F35BDC /* FollowersViewController.swift */,
 			);
-			path = "Network Social App";
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		3951E185266531FF00F35BDC /* Collection Cell */ = {
+			isa = PBXGroup;
+			children = (
+				3951E186266531FF00F35BDC /* MyCollectionViewCell.xib */,
+				3951E187266531FF00F35BDC /* MyCollectionViewCell.swift */,
+			);
+			path = "Collection Cell";
+			sourceTree = "<group>";
+		};
+		3951E188266531FF00F35BDC /* Table Cell */ = {
+			isa = PBXGroup;
+			children = (
+				3951E189266531FF00F35BDC /* CollectionTableViewCell.swift */,
+				3951E18A266531FF00F35BDC /* CollectionTableViewCell.xib */,
+			);
+			path = "Table Cell";
 			sourceTree = "<group>";
 		};
 		398351E0265BFEF000805F66 /* Model */ = {
@@ -116,6 +165,7 @@
 			children = (
 				398351E1265BFF3B00805F66 /* User.swift */,
 				398351E5265BFF6300805F66 /* DetailUser.swift */,
+				3951E1942665389A00F35BDC /* Followers.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -177,6 +227,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3951E18B266531FF00F35BDC /* MyCollectionViewCell.xib in Resources */,
+				3951E18E266531FF00F35BDC /* CollectionTableViewCell.xib in Resources */,
 				3932FF962650787200856E2F /* LaunchScreen.storyboard in Resources */,
 				3932FF932650787200856E2F /* Assets.xcassets in Resources */,
 				3932FF912650787100856E2F /* Main.storyboard in Resources */,
@@ -193,20 +245,24 @@
 			files = (
 				398351DE265BFEB800805F66 /* UserTableViewController.swift in Sources */,
 				398351E6265BFF6300805F66 /* DetailUser.swift in Sources */,
+				3951E18C266531FF00F35BDC /* MyCollectionViewCell.swift in Sources */,
 				3932FFA62651BC2300856E2F /* SocialTableViewController.swift in Sources */,
 				3932FF8A2650787100856E2F /* AppDelegate.swift in Sources */,
 				398351EF265C021300805F66 /* FeedPostTableViewController.swift in Sources */,
 				398351E9265BFFED00805F66 /* UserTableViewCell.swift in Sources */,
 				398351D5265AD94900805F66 /* ImageDownloader.swift in Sources */,
+				3951E191266533BC00F35BDC /* FollowersViewController.swift in Sources */,
 				3942543F265C4AC500E7F896 /* FollowerTableViewController.swift in Sources */,
 				3932FFA026507CD900856E2F /* KeyboardViewController.swift in Sources */,
 				398351DB265BF1A700805F66 /* ByHandViewController.swift in Sources */,
 				3932FF8C2650787100856E2F /* SceneDelegate.swift in Sources */,
 				3932FFA32651B64200856E2F /* FormTableViewController.swift in Sources */,
 				3932FFAA2651BD4500856E2F /* PostTableViewCell.swift in Sources */,
+				3951E1952665389A00F35BDC /* Followers.swift in Sources */,
 				39425442265C4AFF00E7F896 /* FollowerTableViewCell.swift in Sources */,
 				398351EC265C017300805F66 /* FeedPostTableViewCell.swift in Sources */,
 				398351D8265BEF6100805F66 /* PhotosCollectionViewController.swift in Sources */,
+				3951E18D266531FF00F35BDC /* CollectionTableViewCell.swift in Sources */,
 				398351E2265BFF3B00805F66 /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
